@@ -33,7 +33,7 @@ public class UploadKYC {
 		Thread.sleep(1000);
 		a.moveToElement(driver.findElement(By.xpath("//a[@id='59||2']"))).click().build().perform();
 		Thread.sleep(1000);
-		driver.findElement(By.id("FormNumber")).sendKeys("9000000067");
+		driver.findElement(By.id("FormNumber")).sendKeys("9000003676");
 		driver.findElement(By.id("btnSave")).click();
 		Thread.sleep(3000);
 		 
